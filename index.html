@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">TODO LIST</p>
+      <div class="input_cont">
+        <form class="form">
+          <input
+            type="text"
+            placeholder="Add your new todo"
+            required
+            class="inputText"
+          />
+          <input type="submit" value="&#11162;" class="sub_btn" />
+        </form>
+      </div>
+      <div class="todoList"></div>
+      <div class="delete_all">
+        <div class="button_dell_all">
+          <button class="button-82-pushable" role="button">
+            <span class="button-82-shadow"></span>
+            <span class="button-82-edge"></span>
+            <span class="button-82-front text">
+              <i class="fa-solid fa-dumpster-fire"></i>
+              Delete
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
